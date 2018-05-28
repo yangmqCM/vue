@@ -1,0 +1,12 @@
+vue init webpack app-3
+
+cd app-3
+
+npm run dev
+
+Module build failed: Error: No parser and no file path given, couldn't infer a parser.
+//解决办法
+npm i prettier@~1.12.0
+
+//创建并切换dev分支
+git checkout -b dev
